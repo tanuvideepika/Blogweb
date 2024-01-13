@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: courier, monospace;
+}
+
+.header-bar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; /* Increase the padding for a taller header */
+}
+
+.logo {
+  font-size: 28px; /* Adjust the font size for the logo */
+  font-weight: bold;
+  font-family: courier, monospace; /* Change the font for the logo */
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: #fff;
+  font-family: courier, monospace;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px; /* Make the buttons rounded */
+  padding: 15px; /* Make all buttons of equal size */
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+  
+  .maincontent {
+    margin: 0;
+    font-family: courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #73496e; 
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px; 
+    color: #f1e8e8; 
+    margin: 10px;
+  }
+
+  h1{
+    font-size: 40px; 
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bloggum {
+    margin: 0;
+    font-family: courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #73496e; /* Set your desired background color */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-card {
+    width: 70%; 
+    margin: 20px; /* Add some margin between cards */
+    padding: 20px;
+    background-color: #efd6f1;
+    border: 3px solid #47034a;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #47034a;
+    font-weight: bolder;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #555;
+  }
+  

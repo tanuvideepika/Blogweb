@@ -1,0 +1,60 @@
+.checkkro {
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #73496e; /* Set your desired background color */
+    
+  }
+  
+  .blog-card {
+    max-width: 50%;
+    margin: 30px; /* Add some margin around the card */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack title and description */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input#heyhey, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%; /* Make input fields full width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
+  
+  #heyhey {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  #heyhey:hover {
+    background-color: #45a049;
+  }
+  .body{
+    background-color: #73496e;
+  }
